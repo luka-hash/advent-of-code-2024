@@ -56,7 +56,7 @@ function part2(input: string) {
   console.log(left_score);
 }
 
-if (import.meta) {
+if (import.meta.main) {
   const input = Deno.readTextFileSync("input/day1.txt");
   const testInput = Deno.readTextFileSync("input/day1test.txt");
   part1(testInput);

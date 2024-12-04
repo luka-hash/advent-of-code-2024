@@ -1,9 +1,9 @@
 import "./utils.ts";
 
-function part1(input: string) {
+function part1(_input: string) {
 }
 
-function part2(input: string) {
+function part2(_input: string) {
 }
 
 if (import.meta) {

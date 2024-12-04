@@ -73,7 +73,7 @@ function isDecreasing(arr: number[]): boolean {
   return true;
 }
 
-if (import.meta) {
+if (import.meta.main) {
   const input = Deno.readTextFileSync("input/day2.txt");
   const testInput = Deno.readTextFileSync("input/day2test.txt");
   part1(testInput);
