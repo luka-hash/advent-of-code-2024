@@ -4,6 +4,10 @@ declare global {
     toInt(): number;
     lines(): string[];
   }
+  interface Number {
+    print(): void;
+    debug(): Number;
+  }
 }
 
 export {};

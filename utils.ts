@@ -9,3 +9,14 @@ String.prototype.toInt = function (): number {
 String.prototype.lines = function (): string[] {
   return this.trim().split("\n").map((s) => s.trim());
 };
+
+Number.prototype.print = function (): void {
+  console.log(this);
+};
+
+Number.prototype.debug = function (): Number {
+  console.log(this);
+  return this;
+};
+
+export const print = console.log;
